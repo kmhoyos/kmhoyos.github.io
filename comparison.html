@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -29,37 +29,51 @@
             </div>
     
     </div>
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-md-7 container-left">
-                <h1>Summary: Latitude vs. X</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Comparison: Latitude vs. X</h1>
+                </div>
+            </div> 
+            <hr>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Click any plot to get an in-depth analysis.</p>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>vs. Max Temperature</h2>
+                </div>
+                <div class="col-md-6">
+                    <h2>vs. Humidity</h2>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Fig1.png"></img>
+                </div>
+                <div class="col-md-6">
+                    <img src="Fig2.png"></img>
+                </div>
             </div>
-            <div class="col-md-4 container-right">
-                <h2>Visualizations</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>vs. Cloudiness</h2>
+                </div>
+                <div class="col-md-6">
+                    <h2>vs. Wind Speed</h2>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Fig3.png"></img>
+                </div>
+                <div class="col-md-6">
+                    <img src="Fig4.png"></img>
+                </div>
             </div>
-        </div> 
-        <div class="row">
-            <div class="col-md-7 container-left">
-                <img class="sumpic" src="Fig1.png" Align="left"></img>
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from OpenWeatherMap to assemple a dataset of over 500 cities.
-                    <br>
-                    <br>
-                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-            </div>
-            <div class="col-md-2 container-right">
-                <img src="Fig1.png"></img>
-            </div>
-            <div class="col-md-2 container-right">
-                <img src="Fig2.png"></img>
-            </div>
-            <div class="col-md-2 container-right">
-                <img src="Fig3.png"></img>
-            </div>
-            <div class="col-md-2 container-right">
-                <img src="Fig4.png"></img>
-            </div>                                       
-        </div>  
-    </div>
+        </div>
+     
 </body>
 </html>

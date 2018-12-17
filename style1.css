@@ -9,26 +9,62 @@ h1 {
     color: rgb(98, 177, 144);
     font-size: 30px;
     font-weight: bold;
+    padding:10px;
   }
 
 h2 {
     color: rgb(98, 177, 144);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
+    margin-top: 0px;
+    padding: 30px;
   }
+
+p {
+    padding: 10px;
+}
 
 img {
-    height: 400px;
-    width: 550px;
+    height: 150px;
+    width: 150px;
     box-align: center;
+    padding: 5px;
   }
 
-.container {
+.toppic {
+    height: 400px;
+    width: 550px;
+    box-align: left;
+    padding: 10px;
+}
+
+.sumpic {
+  height: 300px;
+  width: 300px;
+  box-align: left;
+  padding: 10px;
+}
+
+.highlight {
+    outline-style:solid;
+    outline-color: rgb(98, 177, 144);
+}
+
+.container-left {
     background-color: white;
-    align: center;
-    margin: 60px;
-    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    padding: 10px;
+    align-self: left;
+  }
+
+.container-right {
+    background-color: white;
+    margin-bottom: 0px;
+    padding: 0px;
+    align-self: right;
   }
 
 /* Style the header with a background and some padding */
