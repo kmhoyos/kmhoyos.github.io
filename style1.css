@@ -1,6 +1,6 @@
 body {
     margin: 30px;  
-    padding: 25px;
+    padding: 30px;
     background-color:#F2F7F0;
     box-align: center;
   }
@@ -29,12 +29,12 @@ img {
     height: 150px;
     width: 150px;
     box-align: center;
-    padding: 5px;
+    padding: 10px;
   }
 
 .toppic {
-    height: 400px;
-    width: 550px;
+    height: 350px;
+    width: 450px;
     box-align: left;
     padding: 10px;
 }
@@ -53,7 +53,7 @@ img {
 
 .container-left {
     background-color: white;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 20px;
     padding: 10px;
@@ -62,8 +62,19 @@ img {
 
 .container-right {
     background-color: white;
+    margin-top: 0px;
     margin-bottom: 0px;
-    padding: 0px;
+    margin-left: 20px;
+    padding: 10px;
+    align-self: right;
+  }
+
+.container-right1 {
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 10px;
     align-self: right;
   }
 
